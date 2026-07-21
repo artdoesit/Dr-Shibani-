@@ -1141,7 +1141,35 @@ export default function BookShowcase() {
               </li>
             ))}
           </ul>
-          <p className="f-copy">© 2026 Dr. Shibani Belwalkar. All rights reserved.</p>
+          <div style={{ display: "flex", alignItems: "center", gap: "1rem", flexWrap: "wrap" }}>
+            <p className="f-copy" style={{ margin: 0 }}>© 2026 Artdoesit.ai</p>
+            <a 
+              href="https://www.linkedin.com/in/abdur-rahman-taqui-534625224/" 
+              target="_blank" 
+              rel="noreferrer"
+              style={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: "0.4rem",
+                padding: "0.38rem 0.85rem",
+                background: "#0a66c2",
+                color: "#ffffff",
+                borderRadius: "6px",
+                fontSize: "0.78rem",
+                fontWeight: "600",
+                textDecoration: "none",
+                transition: "all 0.2s ease",
+                boxShadow: "0 2px 8px rgba(10, 102, 194, 0.25)"
+              }}
+              onMouseEnter={(e) => { e.currentTarget.style.background = "#004182"; e.currentTarget.style.transform = "translateY(-1px)"; }}
+              onMouseLeave={(e) => { e.currentTarget.style.background = "#0a66c2"; e.currentTarget.style.transform = "none"; }}
+            >
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.25V10.9H6.46M7.86 6.74a1.63 1.63 0 1 0 0 3.26 1.63 1.63 0 0 0 0-3.26z"/>
+              </svg>
+              <span>LinkedIn</span>
+            </a>
+          </div>
         </div>
       </footer>
     </>
