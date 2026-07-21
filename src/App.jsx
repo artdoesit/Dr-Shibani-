@@ -432,6 +432,12 @@ function ScrollBook({ progress }) {
 
           {/* Page 6: Back Cover */}
           <div className="book-page page-back cover-back">
+            <img 
+              src="/book-cover-back.png" 
+              alt="Back Cover" 
+              className="book-page-image" 
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
             <div className="book-page-fallback" style={{ background: "#faf8f4", color: "#222", padding: "1.2rem 1.1rem", height: "100%", boxSizing: "border-box" }}>
               <div style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", textAlign: "left" }}>
                 <div>
@@ -896,10 +902,12 @@ export default function BookShowcase() {
         <div className="author-showcase">
           <div className="author-img-wrapper">
             <img
-              src="/dr s1.jpg"
+              src="/author_cropped.jpg"
               alt="Dr. Shibani Belwalkar"
+              loading="lazy"
               onError={(e) => {
-                e.target.src = "/author_cropped.jpg";
+                e.target.src =
+                  "https://images.unsplash.com/photo-1544717302-de2939b7ef71?w=800&fit=crop";
               }}
             />
           </div>

@@ -700,15 +700,9 @@ body::before {
 }
 .author-img-wrapper img {
   width: 100%; height: 100%; object-fit: cover; 
-  image-rendering: -webkit-optimize-contrast;
-  image-rendering: high-quality;
-  backface-visibility: hidden;
-  transform: translateZ(0);
-  transition: transform 0.5s ease, filter 0.5s ease;
+  filter: grayscale(100%); transition: filter 0.7s ease;
 }
-.author-img-wrapper:hover img {
-  transform: scale(1.02);
-}
+.author-img-wrapper:hover img { filter: grayscale(0%); }
 
 .author-content { padding-right: 2rem; }
 .author-tag { 
