@@ -282,14 +282,10 @@ function ScrollBook({ progress }) {
                     letterSpacing: "0.12em",
                     textTransform: "uppercase",
                     color: "var(--accent)",
-                    marginBottom: "0.4rem",
+                    marginBottom: "0.8rem",
                     marginTop: "0.2rem"
                   }}>About the Book</p>
-                  <h3 style={{ fontSize: "15px", lineHeight: "1.25", marginBottom: "0.5rem" }}>
-                    The Pursuit of<br />
-                    <em style={{ fontStyle: "italic", fontWeight: "400" }}>Purpose & Time</em>
-                  </h3>
-                  <p style={{ fontSize: "10.5px", lineHeight: "1.45", fontStyle: "normal", color: "var(--ink-soft)" }}>
+                  <p style={{ fontSize: "10.5px", lineHeight: "1.5", fontStyle: "normal", color: "var(--ink-soft)" }}>
                     The pursuit of one's purpose in life and its actual realisation have one thing in common, and that is time. You can either choose to wait and discover what is at times an elusive vision, or instead be intentional about making every moment in life purposeful and make it count for something.
                   </p>
                 </div>
@@ -318,18 +314,7 @@ function ScrollBook({ progress }) {
             <div className="book-page-fallback" style={{ padding: "1.8rem 1.6rem" }}>
               <div className="page-content" style={{ transform: "none", height: "100%", justifyContent: "space-between" }}>
                 <div>
-                  <span className="page-num" style={{ fontSize: "11px", textAlign: "right", display: "block" }}>03</span>
-                  <p style={{
-                    fontSize: "10px",
-                    fontWeight: "600",
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                    color: "var(--accent)",
-                    marginBottom: "0.4rem",
-                    marginTop: "0.2rem",
-                    textAlign: "right"
-                  }}>About the Book</p>
-                  <h3 style={{ fontSize: "15px", lineHeight: "1.25", marginBottom: "0.5rem", textAlign: "right" }}>
+                  <h3 style={{ fontSize: "15px", lineHeight: "1.25", marginBottom: "0.8rem", textAlign: "right" }}>
                     An Unusual<br />
                     <em style={{ fontStyle: "italic", fontWeight: "400" }}>Adventure</em>
                   </h3>
@@ -356,17 +341,7 @@ function ScrollBook({ progress }) {
             <div className="book-page-fallback" style={{ padding: "1.8rem 1.6rem" }}>
               <div className="page-content" style={{ transform: "none", height: "100%", justifyContent: "space-between" }}>
                 <div>
-                  <span className="page-num" style={{ fontSize: "11px" }}>04</span>
-                  <p style={{
-                    fontSize: "10px",
-                    fontWeight: "600",
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                    color: "var(--accent)",
-                    marginBottom: "0.4rem",
-                    marginTop: "0.2rem"
-                  }}>Self-Reflection</p>
-                  <h3 style={{ fontSize: "14px", lineHeight: "1.25", marginBottom: "0.5rem" }}>
+                  <h3 style={{ fontSize: "14px", lineHeight: "1.25", marginBottom: "0.8rem" }}>
                     Pause and ponder<br />
                     <em style={{ fontStyle: "italic", fontWeight: "400" }}>these questions:</em>
                   </h3>
@@ -420,18 +395,7 @@ function ScrollBook({ progress }) {
             <div className="book-page-fallback" style={{ padding: "1.8rem 1.6rem" }}>
               <div className="page-content" style={{ transform: "none", height: "100%", justifyContent: "space-between" }}>
                 <div>
-                  <span className="page-num" style={{ fontSize: "11px", textAlign: "right", display: "block" }}>05</span>
-                  <p style={{
-                    fontSize: "10px",
-                    fontWeight: "600",
-                    letterSpacing: "0.12em",
-                    textTransform: "uppercase",
-                    color: "var(--accent)",
-                    marginBottom: "0.4rem",
-                    marginTop: "0.2rem",
-                    textAlign: "right"
-                  }}>Self-Reflection</p>
-                  <h3 style={{ fontSize: "14px", lineHeight: "1.25", marginBottom: "0.5rem", textAlign: "right" }}>
+                  <h3 style={{ fontSize: "14px", lineHeight: "1.25", marginBottom: "0.8rem", textAlign: "right" }}>
                     Pause and ponder<br />
                     <em style={{ fontStyle: "italic", fontWeight: "400" }}>these questions:</em>
                   </h3>
@@ -912,7 +876,7 @@ export default function BookShowcase() {
           never outside; it is always within. When nothing inside trembles,
           nothing outside threatens.
         </p>
-        <p className="q-attr">Dr. Shibani Belwalkar · A Quiet Conquest</p>
+        <p className="q-attr">Dr. Shibani Belwalkar</p>
       </div>
 
       {/* ── BUY SECTION ──────────────────────────────────────────────────── */}
