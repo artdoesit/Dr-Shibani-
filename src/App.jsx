@@ -902,12 +902,10 @@ export default function BookShowcase() {
         <div className="author-showcase">
           <div className="author-img-wrapper">
             <img
-              src="/author_cropped.jpg"
+              src="/dr s1.jpg"
               alt="Dr. Shibani Belwalkar"
-              loading="lazy"
               onError={(e) => {
-                e.target.src =
-                  "https://images.unsplash.com/photo-1544717302-de2939b7ef71?w=800&fit=crop";
+                e.target.src = "/author_cropped.jpg";
               }}
             />
           </div>
