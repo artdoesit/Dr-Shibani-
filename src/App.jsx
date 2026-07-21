@@ -438,14 +438,59 @@ function ScrollBook({ progress }) {
               className="book-page-image" 
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-            <div className="book-page-fallback">
-              <div className="cover-inner">
-                <div className="cover-back-logo">S</div>
-                <p className="cover-back-blurb">
-                  "Purpose is not something you find. It is something you anchor."
-                </p>
-                <div className="cover-back-footer">
-                  <span>Dr. Shibani Belwalkar</span>
+            <div className="book-page-fallback" style={{ background: "#faf8f4", color: "#222", padding: "1.2rem 1.1rem", height: "100%", boxSizing: "border-box" }}>
+              <div style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", textAlign: "left" }}>
+                <div>
+                  <h2 style={{
+                    fontFamily: "var(--f-display, 'Cinzel', serif)",
+                    fontSize: "19px",
+                    fontWeight: "800",
+                    letterSpacing: "0.08em",
+                    color: "#556b2f",
+                    textAlign: "center",
+                    marginBottom: "0.6rem",
+                    marginTop: "0.1rem"
+                  }}>
+                    DON'T WAIT
+                  </h2>
+
+                  <p style={{ fontSize: "7.5px", lineHeight: "1.38", color: "#2c2c2c", marginBottom: "0.5rem" }}>
+                    The pursuit of one's purpose in life and its actual realization have one thing in common and that is time. You can either choose to wait and discover what is at times an elusive mission or instead be intentional about making every moment in life purposeful and to make it count for something.
+                  </p>
+
+                  <p style={{ fontSize: "7.5px", lineHeight: "1.38", color: "#2c2c2c", marginBottom: "0.5rem" }}>
+                    Join me as I wade through the peculiar waters of life in search of my own reason for being. This is an unusual adventure-filled undertaking that capitalizes on the duality of fact and fiction, humor and science, logic and the surreal in order to lay bare the internal choices we make daily. This book is for those who question, “Am I truly fulfilling my purpose in life, that sole reason for my existence?”
+                  </p>
+
+                  <p style={{ fontSize: "7.5px", lineHeight: "1.38", color: "#2c2c2c" }}>
+                    And as passion and duty collide, my hope is that this incredible journey of self-reflection will impart meaningful lessons that will transform your perspective of life. After all, the journey is as important as the destination!
+                  </p>
+                </div>
+
+                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-end", paddingTop: "0.4rem", borderTop: "1px solid #e2ded8" }}>
+                  <div style={{ display: "flex", alignItems: "center", gap: "3px" }}>
+                    <span style={{ 
+                      background: "#e53935", 
+                      color: "#fff", 
+                      fontWeight: "900", 
+                      borderRadius: "2px", 
+                      padding: "1px 3px", 
+                      fontSize: "8px",
+                      fontFamily: "sans-serif"
+                    }}>N</span>
+                    <span style={{ fontSize: "8.5px", fontWeight: "700", color: "#222" }}>notion<span style={{ fontWeight: "300" }}>press</span><span style={{ fontSize: "6.5px", color: "#e53935" }}>.com</span></span>
+                  </div>
+
+                  <div style={{ textAlign: "right" }}>
+                    <div style={{ fontSize: "5.5px", fontWeight: "600", color: "#444", marginBottom: "1px" }}>ISBN 979-8-88883-680-4</div>
+                    <div style={{ 
+                      background: "repeating-linear-gradient(90deg, #000 0px, #000 1px, #fff 1px, #fff 2px, #000 2px, #000 4px, #fff 4px, #fff 5px)", 
+                      height: "12px", 
+                      width: "50px", 
+                      marginLeft: "auto" 
+                    }} />
+                    <div style={{ fontSize: "5px", color: "#444", marginTop: "1px" }}>9 798888 836804</div>
+                  </div>
                 </div>
               </div>
             </div>
