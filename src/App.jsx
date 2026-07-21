@@ -432,12 +432,6 @@ function ScrollBook({ progress }) {
 
           {/* Page 6: Back Cover */}
           <div className="book-page page-back cover-back">
-            <img 
-              src="/book-cover-back.png" 
-              alt="Back Cover" 
-              className="book-page-image" 
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
             <div className="book-page-fallback" style={{ background: "#faf8f4", color: "#222", padding: "1.2rem 1.1rem", height: "100%", boxSizing: "border-box" }}>
               <div style={{ height: "100%", display: "flex", flexDirection: "column", justifyContent: "space-between", textAlign: "left" }}>
                 <div>
