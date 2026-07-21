@@ -872,9 +872,7 @@ export default function BookShowcase() {
       {/* ── QUOTE BAND ───────────────────────────────────────────────────── */}
       <div className="quote-band">
         <p className="q-text">
-          Ultimately, the deepest mastery is realising that the battlefield is
-          never outside; it is always within. When nothing inside trembles,
-          nothing outside threatens.
+          There is no when and where, it is just the here and now. I wonder then if we too can learn from the silence and the pause. Can we learn to forget the rat race of the past and drop the fear of the unknown future? Can we learn to pick the basics and drop the unessential things?
         </p>
         <p className="q-attr">Dr. Shibani Belwalkar</p>
       </div>
