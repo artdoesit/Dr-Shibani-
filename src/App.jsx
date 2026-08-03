@@ -869,24 +869,6 @@ export default function BookShowcase() {
         </div>
       </section>
 
-      {/* ── FAQS ─────────────────────────────────────────────────────────── */}
-      <section className="section-faq" id="faq" style={{ padding: "5rem 2rem", background: "var(--bg-card, #f7f4f0)", borderTop: "1px solid var(--warm-rule, #e5ded6)", borderBottom: "1px solid var(--warm-rule, #e5ded6)" }}>
-        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-          <div className="sec-head" style={{ marginBottom: "2.5rem" }}>
-            <div>
-              <h2 className="sec-title" style={{ fontSize: "clamp(32px, 4vw, 44px)" }}>Frequently Asked Questions</h2>
-              <p className="sec-kicker" style={{ marginTop: "0.4rem" }}>Everything you need to know about Don't Wait</p>
-            </div>
-          </div>
-
-          <div style={{ maxWidth: "860px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1rem" }}>
-            {FAQS.map((faq, idx) => (
-              <FaqItem key={idx} question={faq.q} answer={faq.a} />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* ── AUTHOR ───────────────────────────────────────────────────────── */}
       <section className="section-author" id="author">
         <div className="author-content">
@@ -921,6 +903,24 @@ export default function BookShowcase() {
         </p>
         <p className="q-attr">Dr. Shibani Belwalkar</p>
       </div>
+
+      {/* ── FAQS ─────────────────────────────────────────────────────────── */}
+      <section className="section-faq" id="faq" style={{ padding: "5rem 2rem", background: "var(--bg-card, #f7f4f0)", borderTop: "1px solid var(--warm-rule, #e5ded6)", borderBottom: "1px solid var(--warm-rule, #e5ded6)" }}>
+        <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+          <div className="sec-head" style={{ marginBottom: "2.5rem" }}>
+            <div>
+              <h2 className="sec-title" style={{ fontSize: "clamp(32px, 4vw, 44px)" }}>Frequently Asked Questions</h2>
+              <p className="sec-kicker" style={{ marginTop: "0.4rem" }}>Everything you need to know about Don't Wait</p>
+            </div>
+          </div>
+
+          <div style={{ maxWidth: "860px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "1rem" }}>
+            {FAQS.map((faq, idx) => (
+              <FaqItem key={idx} question={faq.q} answer={faq.a} />
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ── BUY SECTION ──────────────────────────────────────────────────── */}
       <section
