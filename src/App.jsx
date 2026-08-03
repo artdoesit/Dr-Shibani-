@@ -896,14 +896,6 @@ export default function BookShowcase() {
         </div>
       </section>
 
-      {/* ── QUOTE BAND ───────────────────────────────────────────────────── */}
-      <div className="quote-band">
-        <p className="q-text">
-          There is no when and where, it is just the here and now. I wonder then if we too can learn from the silence and the pause. Can we learn to forget the rat race of the past and drop the fear of the unknown future? Can we learn to pick the basics and drop the unessential things?
-        </p>
-        <p className="q-attr">Dr. Shibani Belwalkar</p>
-      </div>
-
       {/* ── FAQS ─────────────────────────────────────────────────────────── */}
       <section className="section-faq" id="faq" style={{ padding: "5rem 2rem", background: "var(--bg-card, #f7f4f0)", borderTop: "1px solid var(--warm-rule, #e5ded6)", borderBottom: "1px solid var(--warm-rule, #e5ded6)" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
@@ -921,6 +913,14 @@ export default function BookShowcase() {
           </div>
         </div>
       </section>
+
+      {/* ── QUOTE BAND ───────────────────────────────────────────────────── */}
+      <div className="quote-band">
+        <p className="q-text">
+          There is no when and where, it is just the here and now. I wonder then if we too can learn from the silence and the pause. Can we learn to forget the rat race of the past and drop the fear of the unknown future? Can we learn to pick the basics and drop the unessential things?
+        </p>
+        <p className="q-attr">Dr. Shibani Belwalkar</p>
+      </div>
 
       {/* ── BUY SECTION ──────────────────────────────────────────────────── */}
       <section
