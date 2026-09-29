@@ -1142,7 +1142,7 @@ export default function BookShowcase() {
             ))}
           </ul>
           <div style={{ display: "flex", alignItems: "center", gap: "1rem", flexWrap: "wrap" }}>
-            <p className="f-copy" style={{ margin: 0 }}>© 2026 Artdoesit.ai</p>
+            <p className="f-copy" style={{ margin: 0 }}>© 2026 Dr. Shibani Belwalkar. All rights reserved.</p>
             <a 
               href="https://www.linkedin.com/in/shibanibelwalkar/" 
               target="_blank" 
