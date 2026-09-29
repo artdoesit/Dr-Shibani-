@@ -416,3 +416,12 @@ body::before {
   .footer { padding: 4rem 2rem 2rem; }
   .footer-top { grid-template-columns: 1fr 1fr; gap: 2.5rem; }
 }
+
+/* ── FLUID SCROLL TEXT CLASS ─────────────────────────────────────────────── */
+.your-scroll-text-class {
+  /* Scales the text to 12% of the screen width, keeping it between 4rem and 15rem */
+  font-size: clamp(4rem, 12vw, 15rem); 
+  line-height: 1;
+  text-align: center;
+  width: 100%;
+}
