@@ -433,7 +433,7 @@ function ScrollBook({ progress }) {
           {/* Page 6: Back Cover */}
           <div className="book-page page-back cover-back">
             <img 
-              src="/back cover HD.png" 
+              src="/back page HD.png" 
               alt="Back Cover" 
               className="book-page-image" 
               onError={(e) => { e.target.style.display = 'none'; }}
