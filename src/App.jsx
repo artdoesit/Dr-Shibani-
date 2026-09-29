@@ -1144,7 +1144,7 @@ export default function BookShowcase() {
           <div style={{ display: "flex", alignItems: "center", gap: "1rem", flexWrap: "wrap" }}>
             <p className="f-copy" style={{ margin: 0 }}>© 2026 Artdoesit.ai</p>
             <a 
-              href="https://www.linkedin.com/in/abdur-rahman-taqui-534625224/" 
+              href="https://www.linkedin.com/in/shibanibelwalkar/" 
               target="_blank" 
               rel="noreferrer"
               style={{
