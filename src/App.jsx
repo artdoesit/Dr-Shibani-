@@ -964,44 +964,24 @@ export default function BookShowcase() {
           style={{
             display: "flex",
             flexWrap: "wrap",
-            gap: "1rem",
+            gap: "1.8rem",
             justifyContent: "center",
-            marginBottom: "3rem",
+            marginBottom: "3.5rem",
           }}
         >
           {[
             { label: "Amazon India",  href: "https://www.amazon.in/Dont-Wait-Shibani/dp/B0BTT2Y55J" },
             { label: "Flipkart",      href: "https://www.flipkart.com/don-t-wait/p/itmf8320aba391e1" },
             { label: "Notion Press",  href: "https://notionpress.com/in/read/don-t-wait?srsltid=AfmBOoo1pNDa04KNX_VYLzygNtzUH7RX5nxUnBiJ81SqkJs7iFqjgXx9"  },
-          ].map(({ label, href }) => (
+          ].map(({ label, href }, idx) => (
             <a
               key={label}
               href={href}
               target="_blank"
               rel="noreferrer"
+              className="buy-pill-btn"
               style={{
-                display: "inline-flex",
-                alignItems: "center",
-                gap: "0.5rem",
-                padding: "0.9rem 2.25rem",
-                background: "#f0ebe3",
-                color: "#1a1410",
-                borderRadius: "50px",
-                fontSize: "13px",
-                fontWeight: "700",
-                letterSpacing: "0.08em",
-                textTransform: "uppercase",
-                textDecoration: "none",
-                transition: "all 0.2s ease",
-                border: "1.5px solid #f0ebe3",
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.background = "transparent";
-                e.currentTarget.style.color       = "#f0ebe3";
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.background = "#f0ebe3";
-                e.currentTarget.style.color       = "#1a1410";
+                animationDelay: `${idx * 0.6}s`,
               }}
             >
               {label}

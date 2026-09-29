@@ -1433,3 +1433,41 @@ body::before {
   text-align: center;
   width: 100%;
 }
+
+/* ── FLOATING BUY PILL BUTTONS ─────────────────────────────────────────────── */
+@keyframes floatPill {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-9px);
+  }
+}
+
+.buy-pill-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 1.15rem 2.8rem;
+  background: #f0ebe3;
+  color: #1a1410;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #f0ebe3;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+  animation: floatPill 3.6s ease-in-out infinite;
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.buy-pill-btn:hover {
+  background: transparent !important;
+  color: #f0ebe3 !important;
+  border-color: #f0ebe3 !important;
+  transform: translateY(-12px) scale(1.06) !important;
+  box-shadow: 0 16px 35px rgba(240, 235, 227, 0.25) !important;
+  animation-play-state: paused;
+}
