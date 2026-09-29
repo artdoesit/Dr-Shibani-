@@ -266,12 +266,6 @@ function ScrollBook({ progress }) {
           
           {/* Page 2: Inside Left (Spread 1 Left) */}
           <div className="book-page page-back page-inside-left">
-            <img 
-              src="/book-page-2.png" 
-              alt="Page 2" 
-              className="book-page-image" 
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
             <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
               <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
@@ -305,12 +299,6 @@ function ScrollBook({ progress }) {
         >
           {/* Page 3: Inside Right (Spread 1 Right) */}
           <div className="book-page page-front page-inside-right">
-            <img 
-              src="/book-page-3.png" 
-              alt="Page 3" 
-              className="book-page-image" 
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
             <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
               <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
@@ -332,12 +320,6 @@ function ScrollBook({ progress }) {
 
           {/* Page 4: Inside Left (Spread 2 Left) */}
           <div className="book-page page-back page-inside-left">
-            <img 
-              src="/book-page-4.png" 
-              alt="Page 4" 
-              className="book-page-image" 
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
             <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
               <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
@@ -386,12 +368,6 @@ function ScrollBook({ progress }) {
         >
           {/* Page 5: Inside Right (Spread 2 Right) */}
           <div className="book-page page-front page-inside-right">
-            <img 
-              src="/book-page-5.png" 
-              alt="Page 5" 
-              className="book-page-image" 
-              onError={(e) => { e.target.style.display = 'none'; }}
-            />
             <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
               <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
