@@ -272,12 +272,12 @@ function ScrollBook({ progress }) {
               className="book-page-image" 
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-            <div className="book-page-fallback" style={{ padding: "1.8rem 1.6rem" }}>
-              <div className="page-content" style={{ transform: "none", height: "100%", justifyContent: "space-between" }}>
+            <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+              <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
-                  <span className="page-num" style={{ fontSize: "11px" }}>02</span>
+                  <span className="page-num" style={{ fontSize: "13px" }}>02</span>
                   <p style={{
-                    fontSize: "10px",
+                    fontSize: "13px",
                     fontWeight: "600",
                     letterSpacing: "0.12em",
                     textTransform: "uppercase",
@@ -285,11 +285,11 @@ function ScrollBook({ progress }) {
                     marginBottom: "0.8rem",
                     marginTop: "0.2rem"
                   }}>About the Book</p>
-                  <p style={{ fontSize: "10.5px", lineHeight: "1.5", fontStyle: "normal", color: "var(--ink-soft)" }}>
+                  <p style={{ fontSize: "13px", lineHeight: "1.8", fontStyle: "normal", color: "var(--ink-soft)" }}>
                     The pursuit of one's purpose in life and its actual realisation have one thing in common, and that is time. You can either choose to wait and discover what is at times an elusive vision, or instead be intentional about making every moment in life purposeful and make it count for something.
                   </p>
                 </div>
-                <div className="page-footer" style={{ fontSize: "9px" }}>About the Book I</div>
+                <div className="page-footer" style={{ fontSize: "11px", marginTop: "auto" }}>About the Book I</div>
               </div>
             </div>
           </div>
@@ -311,21 +311,21 @@ function ScrollBook({ progress }) {
               className="book-page-image" 
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-            <div className="book-page-fallback" style={{ padding: "1.8rem 1.6rem" }}>
-              <div className="page-content" style={{ transform: "none", height: "100%", justifyContent: "space-between" }}>
+            <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+              <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
-                  <h3 style={{ fontSize: "15px", lineHeight: "1.25", marginBottom: "0.8rem", textAlign: "right" }}>
+                  <h3 style={{ fontSize: "18px", lineHeight: "1.3", marginBottom: "0.8rem", textAlign: "right" }}>
                     An Unusual<br />
                     <em style={{ fontStyle: "italic", fontWeight: "400" }}>Adventure</em>
                   </h3>
-                  <p style={{ fontSize: "10px", lineHeight: "1.4", fontStyle: "normal", color: "var(--ink-soft)", textAlign: "right", marginBottom: "0.4rem" }}>
+                  <p style={{ fontSize: "13px", lineHeight: "1.8", fontStyle: "normal", color: "var(--ink-soft)", textAlign: "right", marginBottom: "0.6rem" }}>
                     Join me as I wade through the peculiar waters of life in search of my own reason for being. This is an unusual adventure-filled undertaking that capitalises on the quality of fact and fiction, humour and science, logic and the surreal in order to lay bare the internal choices we make daily.
                   </p>
-                  <p style={{ fontSize: "10px", lineHeight: "1.4", fontStyle: "normal", color: "var(--ink-soft)", textAlign: "right" }}>
+                  <p style={{ fontSize: "13px", lineHeight: "1.8", fontStyle: "normal", color: "var(--ink-soft)", textAlign: "right" }}>
                     And as passion and duty collide, I hope that this incredible journey of self-reflection will impart meaningful lessons that will transform your perspective on life. After all, the journey is as important as the destination!
                   </p>
                 </div>
-                <div className="page-footer" style={{ fontSize: "9px", textAlign: "right" }}>About the Book II</div>
+                <div className="page-footer" style={{ fontSize: "11px", textAlign: "right", marginTop: "auto" }}>About the Book II</div>
               </div>
             </div>
           </div>
@@ -338,39 +338,39 @@ function ScrollBook({ progress }) {
               className="book-page-image" 
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-            <div className="book-page-fallback" style={{ padding: "1.8rem 1.6rem" }}>
-              <div className="page-content" style={{ transform: "none", height: "100%", justifyContent: "space-between" }}>
+            <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+              <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
-                  <h3 style={{ fontSize: "14px", lineHeight: "1.25", marginBottom: "0.8rem" }}>
+                  <h3 style={{ fontSize: "18px", lineHeight: "1.3", marginBottom: "0.8rem" }}>
                     Pause and ponder<br />
                     <em style={{ fontStyle: "italic", fontWeight: "400" }}>these questions:</em>
                   </h3>
                   <ul style={{ 
-                    fontSize: "10px", 
-                    lineHeight: "1.4", 
+                    fontSize: "13px", 
+                    lineHeight: "1.8", 
                     color: "var(--ink-soft)", 
                     listStyleType: "none",
                     padding: 0,
-                    margin: "0.3rem 0 0 0",
+                    margin: "0.5rem 0 0 0",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "0.45rem"
+                    gap: "0.6rem"
                   }}>
-                    <li style={{ display: "flex", gap: "0.35rem", alignItems: "flex-start" }}>
+                    <li style={{ display: "flex", gap: "0.4rem", alignItems: "flex-start", lineHeight: "1.8" }}>
                       <span style={{ color: "var(--accent)", fontWeight: "bold" }}>•</span>
                       <span>Have we acknowledged and accepted the concept of the present?</span>
                     </li>
-                    <li style={{ display: "flex", gap: "0.35rem", alignItems: "flex-start" }}>
+                    <li style={{ display: "flex", gap: "0.4rem", alignItems: "flex-start", lineHeight: "1.8" }}>
                       <span style={{ color: "var(--accent)", fontWeight: "bold" }}>•</span>
                       <span>Have we integrated it with our thoughts, actions and behaviours?</span>
                     </li>
-                    <li style={{ display: "flex", gap: "0.35rem", alignItems: "flex-start" }}>
+                    <li style={{ display: "flex", gap: "0.4rem", alignItems: "flex-start", lineHeight: "1.8" }}>
                       <span style={{ color: "var(--accent)", fontWeight: "bold" }}>•</span>
                       <span>What is your why?</span>
                     </li>
                   </ul>
                 </div>
-                <div className="page-footer" style={{ fontSize: "9px" }}>Pause & Ponder I</div>
+                <div className="page-footer" style={{ fontSize: "11px", marginTop: "auto" }}>Pause & Ponder I</div>
               </div>
             </div>
           </div>
@@ -392,40 +392,40 @@ function ScrollBook({ progress }) {
               className="book-page-image" 
               onError={(e) => { e.target.style.display = 'none'; }}
             />
-            <div className="book-page-fallback" style={{ padding: "1.8rem 1.6rem" }}>
-              <div className="page-content" style={{ transform: "none", height: "100%", justifyContent: "space-between" }}>
+            <div className="book-page-fallback" style={{ padding: "1.1rem 1rem", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+              <div className="page-content" style={{ transform: "none", height: "100%", display: "flex", flexDirection: "column", justifyContent: "center" }}>
                 <div>
-                  <h3 style={{ fontSize: "14px", lineHeight: "1.25", marginBottom: "0.8rem", textAlign: "right" }}>
+                  <h3 style={{ fontSize: "18px", lineHeight: "1.3", marginBottom: "0.8rem", textAlign: "right" }}>
                     Pause and ponder<br />
                     <em style={{ fontStyle: "italic", fontWeight: "400" }}>these questions:</em>
                   </h3>
                   <ul style={{ 
-                    fontSize: "10px", 
-                    lineHeight: "1.4", 
+                    fontSize: "13px", 
+                    lineHeight: "1.8", 
                     color: "var(--ink-soft)", 
                     textAlign: "right", 
                     listStyleType: "none",
                     padding: 0,
-                    margin: "0.3rem 0 0 0",
+                    margin: "0.5rem 0 0 0",
                     display: "flex",
                     flexDirection: "column",
-                    gap: "0.45rem"
+                    gap: "0.6rem"
                   }}>
-                    <li style={{ display: "flex", flexDirection: "row-reverse", gap: "0.35rem", alignItems: "flex-start" }}>
+                    <li style={{ display: "flex", flexDirection: "row-reverse", gap: "0.4rem", alignItems: "flex-start", lineHeight: "1.8" }}>
                       <span style={{ color: "var(--accent)", fontWeight: "bold" }}>•</span>
                       <span>What purpose do you pursue?</span>
                     </li>
-                    <li style={{ display: "flex", flexDirection: "row-reverse", gap: "0.35rem", alignItems: "flex-start" }}>
+                    <li style={{ display: "flex", flexDirection: "row-reverse", gap: "0.4rem", alignItems: "flex-start", lineHeight: "1.8" }}>
                       <span style={{ color: "var(--accent)", fontWeight: "bold" }}>•</span>
                       <span>What rung are we on the ladder of integrity?</span>
                     </li>
-                    <li style={{ display: "flex", flexDirection: "row-reverse", gap: "0.35rem", alignItems: "flex-start" }}>
+                    <li style={{ display: "flex", flexDirection: "row-reverse", gap: "0.4rem", alignItems: "flex-start", lineHeight: "1.8" }}>
                       <span style={{ color: "var(--accent)", fontWeight: "bold" }}>•</span>
                       <span>Do we practice integrity in form and spirit?</span>
                     </li>
                   </ul>
                 </div>
-                <div className="page-footer" style={{ fontSize: "9px", textAlign: "right" }}>Pause & Ponder II</div>
+                <div className="page-footer" style={{ fontSize: "11px", textAlign: "right", marginTop: "auto" }}>Pause & Ponder II</div>
               </div>
             </div>
           </div>

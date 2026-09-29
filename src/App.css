@@ -334,7 +334,7 @@ body::before {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem;
+  padding: 1.8rem; /* Reduced by 40% to shrink white margins */
   box-sizing: border-box;
   overflow-y: auto;
   scrollbar-width: none;
@@ -468,14 +468,14 @@ body::before {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  padding: 1rem 0;
-  transform: translateY(-2cm); /* Shift content 2cm upwards within the pages */
+  justify-content: center; /* Perfectly center text blocks vertically on the page */
+  padding: 0.5rem 0;
+  transform: none;
 }
 
 .page-num {
   font-family: var(--f-ui);
-  font-size: 0.65rem;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.1em;
   color: var(--accent);
@@ -491,27 +491,29 @@ body::before {
 
 .page-content h3 {
   font-family: var(--f-display);
-  font-size: clamp(1.2rem, 2vw, 1.6rem);
+  font-size: clamp(1.4rem, 2.2vw, 1.9rem);
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.3;
   color: var(--ink);
   margin-bottom: 0.5rem;
 }
 
 .page-content p {
   font-family: var(--f-body);
-  font-size: clamp(0.85rem, 1.2vw, 1rem);
-  line-height: 1.65;
+  font-size: clamp(1.05rem, 1.4vw, 1.25rem); /* Increased base font size by 25% */
+  line-height: 1.8; /* Set line-height to 1.8 */
   color: var(--ink-soft);
   font-style: italic;
 }
 
 .page-footer {
   font-family: var(--f-ui);
-  font-size: 0.55rem;
+  font-size: 0.65rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--ink-faint);
+  margin-top: auto;
+  padding-top: 0.8rem;
 }
 
 .page-inside-left .page-footer {
