@@ -716,15 +716,15 @@ body::before {
 }
 .author-name { 
   font-family: var(--f-display); 
-  font-size: clamp(3rem, 5vw, 4.5rem); 
+  font-size: 3rem; 
   color: var(--ink); 
   margin-bottom: 2rem; 
   line-height: 1.1;
 }
 .author-bio { 
   font-family: var(--f-body); 
-  font-size: clamp(1.2rem, 1.8vw, 1.45rem); 
-  line-height: 1.8; 
+  font-size: 1.1rem; 
+  line-height: 1.6; 
   color: var(--ink-soft); 
   margin-bottom: 1.8rem; 
 }
