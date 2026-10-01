@@ -661,17 +661,20 @@ body::before {
 
 /* ── AUTHOR SECTION ───────────────────────────────────────────────────────── */
 .section-author {
-  padding: 12rem 5rem; /* Extended vertical padding for more section breathing room */
+  padding: 8rem 5rem;
   background: var(--parchment);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  gap: 5rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 .author-content {
-  max-width: 958px; /* Matches the exact width of the photo + badges showcase */
+  max-width: 40%;
   width: 100%;
   text-align: left;
+  padding: 0;
 }
 .author-section-kicker {
   font-family: var(--f-ui);
@@ -685,15 +688,15 @@ body::before {
 }
 .author-showcase {
   display: flex;
-  gap: 2.5rem;
-  align-items: center; /* Center the image and badges column vertically */
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 40%;
   width: 100%;
 }
 .author-img-wrapper {
   position: relative;
   width: 100%;
-  max-width: 700px;
+  max-width: 100%;
   height: auto;
   aspect-ratio: 854 / 1024; /* Original aspect ratio of the uploaded image */
   border-radius: 2px;
@@ -706,7 +709,6 @@ body::before {
 }
 .author-img-wrapper:hover img { filter: grayscale(0%); }
 
-.author-content { padding-right: 2rem; }
 .author-tag { 
   font-family: var(--f-ui); font-size: 0.95rem; letter-spacing: 0.3em; 
   text-transform: uppercase; color: var(--accent); margin-bottom: 1.5rem; display: block;
@@ -1422,6 +1424,15 @@ body::before {
   #about .cover-back-blurb {
     font-size: 0.65rem !important;
     line-height: 1.3 !important;
+  }
+  .section-author {
+    flex-direction: column !important;
+    gap: 3rem !important;
+    padding: 5rem 2rem !important;
+  }
+  .author-content,
+  .author-showcase {
+    max-width: 100% !important;
   }
 }
 
